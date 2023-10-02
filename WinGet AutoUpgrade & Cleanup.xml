@@ -12,9 +12,6 @@
       <ScheduleByWeek>
         <DaysOfWeek>
           <Monday />
-          <Tuesday />
-          <Wednesday />
-          <Thursday />
           <Friday />
         </DaysOfWeek>
         <WeeksInterval>1</WeeksInterval>
