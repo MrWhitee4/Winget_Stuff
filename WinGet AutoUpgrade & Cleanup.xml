@@ -8,11 +8,14 @@
   </RegistrationInfo>
   <Triggers>
     <CalendarTrigger>
-      <StartBoundary>2021-12-03T06:00:00</StartBoundary>
+      <StartBoundary>2023-10-03T06:00:00</StartBoundary>
       <Enabled>true</Enabled>
       <ScheduleByWeek>
         <DaysOfWeek>
           <Monday />
+          <Tuesday />
+          <Wednesday />
+          <Thursday />
           <Friday />
         </DaysOfWeek>
         <WeeksInterval>1</WeeksInterval>
@@ -46,7 +49,7 @@
     <ExecutionTimeLimit>PT72H</ExecutionTimeLimit>
     <Priority>7</Priority>
   </Settings>
-  <Actions Context="Author">
+  <Actions>
     <Exec>
       <Command>powershell.exe</Command>
       <Arguments>-WindowStyle Hidden -Noninteractive -NoProfile -NoLogo winget upgrade --silent --all</Arguments>
