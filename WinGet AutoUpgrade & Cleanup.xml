@@ -4,18 +4,15 @@
     <Date>2021-12-03T08:10:00.6821865</Date>
     <Author>LOL</Author>
     <Description>Auto upgrade all apps with Microsoft WinGet and delete log files that's older as 7 days.</Description>
-    <URI>\WinGet AutoUpgrade &amp; Cleanup</URI>
   </RegistrationInfo>
   <Triggers>
     <CalendarTrigger>
-      <StartBoundary>2023-10-03T06:00:00</StartBoundary>
+      <StartBoundary>2023-10-03T12:00:00</StartBoundary>
       <Enabled>true</Enabled>
       <ScheduleByWeek>
         <DaysOfWeek>
           <Monday />
-          <Tuesday />
           <Wednesday />
-          <Thursday />
           <Friday />
         </DaysOfWeek>
         <WeeksInterval>1</WeeksInterval>
