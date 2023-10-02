@@ -10,13 +10,14 @@
     <Triggers>
         <CalendarTrigger>
             <StartBoundary>2005-10-11T13:21:17-08:00</StartBoundary>
-            <Repetition>
-                <Interval>PT1M</Interval>
-                <Duration>PT4M</Duration>
-            </Repetition>
-            <ScheduleByDay>
-                <DaysInterval>1</DaysInterval>
-            </ScheduleByDay>
+            <Enabled>true</Enabled>
+              <ScheduleByWeek>
+                <DaysOfWeek>
+                  <Monday />
+                  <Friday />
+                </DaysOfWeek>
+                <WeeksInterval>1</WeeksInterval>
+              </ScheduleByWeek>
         </CalendarTrigger>
     </Triggers>
     <Principals>
