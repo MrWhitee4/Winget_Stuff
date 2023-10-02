@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-16"?>
-<Task>
+<Task xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
   <RegistrationInfo>
     <Date>2021-12-03T08:10:00.6821865</Date>
     <Author>LOL</Author>
@@ -13,7 +13,6 @@
       <ScheduleByWeek>
         <DaysOfWeek>
           <Monday />
-          <Wednesday />
           <Friday />
         </DaysOfWeek>
         <WeeksInterval>1</WeeksInterval>
