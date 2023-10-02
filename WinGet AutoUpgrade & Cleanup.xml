@@ -1,28 +1,26 @@
-<?xml version="1.0" encoding="UTF-16"?>
-<Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+<?xml version="1.0" ?>
   <RegistrationInfo>
-    <Date>2021-12-03T08:10:00.6821865</Date>
-    <Author>Kugane</Author>
-    <Description>Auto upgrade all apps with Microsoft WinGet and delete log files that's older as 7 days.</Description>
-    <URI>\WinGet AutoUpgrade &amp; Cleanup</URI>
+    <Date>2023-10-03T08:12:00</Date>
+    <Author>MrWhitee</Author>
+    <Description>Task to upgrade all apps with MS WinGet</Description>
   </RegistrationInfo>
   <Triggers>
     <CalendarTrigger>
-      <StartBoundary>2021-12-03T06:00:00</StartBoundary>
+      <StartBoundary>2023-10-03T06:00:00</StartBoundary>
       <Enabled>true</Enabled>
-      <ScheduleByWeek>
-        <DaysOfWeek>
-          <Monday />
-          <Friday />
-        </DaysOfWeek>
-        <WeeksInterval>1</WeeksInterval>
-      </ScheduleByWeek>
+      <Repetition>
+          <Interval>PT1M</Interval>
+          <Duration>PT4M</Duration>
+        </Repetition>
+        <ScheduleByDay>
+          <DaysInterval>1</DaysInterval>
+        </ScheduleByDay>
     </CalendarTrigger>
   </Triggers>
   <Principals>
-    <Principal id="Author">
-      <GroupId>S-1-5-32-545</GroupId>
-      <RunLevel>HighestAvailable</RunLevel>
+    <Principal>
+      <UserId>Administrator</UserId>
+      <LogonType>InteractiveToken</LogonType>
     </Principal>
   </Principals>
   <Settings>
