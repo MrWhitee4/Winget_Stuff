@@ -4,6 +4,7 @@
     <Date>2021-12-03T08:10:00.6821865</Date>
     <Author>LOL</Author>
     <Description>Auto upgrade all apps with Microsoft WinGet and delete log files that's older as 7 days.</Description>
+    <URI>\WinGet AutoUpgrade &amp; Cleanup</URI>
   </RegistrationInfo>
   <Triggers>
     <CalendarTrigger>
